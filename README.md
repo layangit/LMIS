@@ -26,9 +26,9 @@ This system is designed to support large-scale projects such as mega constructio
 
 ---
 
-## 🏗 System Roles
+##System Roles
 
-### 👑 Admin
+### Admin
 - Define monitored zones  
 - Configure movement & delivery rules  
 - Manage users and permissions  
@@ -39,7 +39,7 @@ This system is designed to support large-scale projects such as mega constructio
 
 ---
 
-### 🏗 Site Manager
+### Site Manager
 - Monitor construction site operations  
 - Track deliveries and asset movement  
 - Detect missing or delayed materials  
@@ -49,7 +49,7 @@ This system is designed to support large-scale projects such as mega constructio
 
 ---
 
-### 🛡 Security Officer
+### Security Officer
 - Monitor unauthorized movement  
 - Review incident details  
 - Analyze alert severity  
@@ -59,7 +59,7 @@ This system is designed to support large-scale projects such as mega constructio
 
 ---
 
-## 🖥 Core Features
+## Core Features
 
 - Role-based authentication
 - Intelligent dashboard interface
@@ -73,7 +73,7 @@ This system is designed to support large-scale projects such as mega constructio
 
 ---
 
-## 🛠 Technology Stack
+## Technology Stack
 
 ### Frontend
 - React 18
@@ -91,7 +91,7 @@ This system is designed to support large-scale projects such as mega constructio
 
 ---
 
-## ⚙️ Local Development Setup
+## Local Development Setup
 
 ### 1. Clone the repository
 
@@ -111,7 +111,7 @@ Open in browser:
 cpp
 Copy code
 http://127.0.0.1:5173/
-🏭 Production Build
+Production Build
 To generate a production-ready build:
 
 bash
@@ -122,12 +122,12 @@ To preview production locally:
 bash
 Copy code
 npm run preview
-🌐 Live Deployment
+Live Deployment
 The application is deployed using Vercel.
 
 (Insert your deployed Vercel URL here once available)
 
-📈 Future Enhancements
+Future Enhancements
 Planned system evolution includes:
 
 Backend API integration (Node.js / FastAPI)
@@ -146,7 +146,7 @@ Enterprise authentication (Okta / OAuth)
 
 Full audit logging & compliance monitoring
 
-🎓 Academic Context
+Academic Context
 This system was developed as part of a System Analysis & Design course and progressed through the following phases:
 
 System Vision & Requirements Documentation

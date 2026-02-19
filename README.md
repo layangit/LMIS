@@ -4,7 +4,7 @@ An AI-powered construction site monitoring and intelligence platform designed to
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 Construction sites manage thousands of materials, tools, and equipment across large zones. Manual supervision and paper-based tracking often lead to:
 
@@ -91,62 +91,8 @@ This system is designed to support large-scale projects such as mega constructio
 
 ---
 
-## Local Development Setup
+## Academic Context
 
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/layangit/LMIS.git
-cd LMIS
-2. Install dependencies
-bash
-Copy code
-npm install
-3. Start development server
-bash
-Copy code
-npm run dev -- --host 127.0.0.1 --port 5173
-Open in browser:
-
-cpp
-Copy code
-http://127.0.0.1:5173/
-Production Build
-To generate a production-ready build:
-
-bash
-Copy code
-npm run build
-To preview production locally:
-
-bash
-Copy code
-npm run preview
-Live Deployment
-The application is deployed using Vercel.
-
-(Insert your deployed Vercel URL here once available)
-
-Future Enhancements
-Planned system evolution includes:
-
-Backend API integration (Node.js / FastAPI)
-
-PostgreSQL database integration
-
-Real-time event streaming (WebSockets)
-
-AI-based object detection (YOLO + OpenCV)
-
-Drone data integration
-
-Predictive risk analytics
-
-Enterprise authentication (Okta / OAuth)
-
-Full audit logging & compliance monitoring
-
-Academic Context
 This system was developed as part of a System Analysis & Design course and progressed through the following phases:
 
 System Vision & Requirements Documentation

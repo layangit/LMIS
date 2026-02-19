@@ -1,73 +1,165 @@
-# React + TypeScript + Vite
+# LMIS – Logistics Monitoring Intelligence System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An AI-powered construction site monitoring and intelligence platform designed to reduce material loss, detect unauthorized movement, and improve operational efficiency through drone-based surveillance and rule-based analytics.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Project Overview
 
-## React Compiler
+Construction sites manage thousands of materials, tools, and equipment across large zones. Manual supervision and paper-based tracking often lead to:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Misplaced materials  
+- Delayed deliveries  
+- Unauthorized movement  
+- Increased operational costs  
+- Safety and theft risks  
 
-## Expanding the ESLint configuration
+LMIS (Logistics Monitoring Intelligence System) provides a role-based intelligent monitoring platform that:
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- Tracks asset movement across defined zones  
+- Detects rule violations automatically  
+- Generates prioritized alerts  
+- Supports operational and security decision-making  
+- Enables scalable monitoring for large-scale construction projects  
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+This system is designed to support large-scale projects such as mega construction developments and smart city initiatives.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🏗 System Roles
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### 👑 Admin
+- Define monitored zones  
+- Configure movement & delivery rules  
+- Manage users and permissions  
+- Adjust alert priorities  
+- View system logs and analytics  
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+**Focus:** Governance & System Control  
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+
+### 🏗 Site Manager
+- Monitor construction site operations  
+- Track deliveries and asset movement  
+- Detect missing or delayed materials  
+- View operational alerts  
+
+**Focus:** Project Performance & Efficiency  
+
+---
+
+### 🛡 Security Officer
+- Monitor unauthorized movement  
+- Review incident details  
+- Analyze alert severity  
+- Access surveillance insights  
+
+**Focus:** Site Protection & Risk Management  
+
+---
+
+## 🖥 Core Features
+
+- Role-based authentication
+- Intelligent dashboard interface
+- Real-time monitoring UI
+- Alert prioritization by severity
+- Zone management configuration
+- Rule-based movement validation
+- Historical analytics visualization
+- System log monitoring
+- Responsive and modern enterprise UI
+
+---
+
+## 🛠 Technology Stack
+
+### Frontend
+- React 18
+- TypeScript
+- Vite
+- React Router
+- TailwindCSS
+- Lucide Icons
+
+### Deployment
+- Vercel
+
+### Version Control
+- Git & GitHub
+
+---
+
+## ⚙️ Local Development Setup
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/layangit/LMIS.git
+cd LMIS
+2. Install dependencies
+bash
+Copy code
+npm install
+3. Start development server
+bash
+Copy code
+npm run dev -- --host 127.0.0.1 --port 5173
+Open in browser:
+
+cpp
+Copy code
+http://127.0.0.1:5173/
+🏭 Production Build
+To generate a production-ready build:
+
+bash
+Copy code
+npm run build
+To preview production locally:
+
+bash
+Copy code
+npm run preview
+🌐 Live Deployment
+The application is deployed using Vercel.
+
+(Insert your deployed Vercel URL here once available)
+
+📈 Future Enhancements
+Planned system evolution includes:
+
+Backend API integration (Node.js / FastAPI)
+
+PostgreSQL database integration
+
+Real-time event streaming (WebSockets)
+
+AI-based object detection (YOLO + OpenCV)
+
+Drone data integration
+
+Predictive risk analytics
+
+Enterprise authentication (Okta / OAuth)
+
+Full audit logging & compliance monitoring
+
+🎓 Academic Context
+This system was developed as part of a System Analysis & Design course and progressed through the following phases:
+
+System Vision & Requirements Documentation
+
+Functional & Non-Functional Specifications
+
+Use Case Modeling & UML Diagrams
+
+High-Fidelity Prototyping (Figma)
+
+Frontend Implementation (React + TypeScript)
+
+Cloud Deployment
+
+The goal was to transform a structured system design into a functional, deployable web application.
+
